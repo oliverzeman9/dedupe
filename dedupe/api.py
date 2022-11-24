@@ -1480,5 +1480,5 @@ def _cleanup_scores(arr: Scores) -> None:
         pass
     else:
         del arr
-        if mmap_file:
-            os.remove(mmap_file)
+        #if mmap_file:
+        #    os.remove(mmap_file)
